@@ -159,4 +159,66 @@ No compilation needed! Simply download the Python files and run them directly fr
 1. *Input Collection* → *Processing* → *Storage* → *Display*
 2. *User Input* → *Validation* → *Calculation* → *Output Formatting*
 
+
+### Test Cases for Student Management System
+
+#### Valid Input Tests
+- *Test Case 1*: Standard student data
+  - Input: Name="Aimee", Age=21, Grades=[78, 82, 90]
+  - Expected: Average=83.33, proper display formatting
+  - Status: ✅ Passed
+
+- *Test Case 2*: Perfect grades
+  - Input: Name="John", Age=20, Grades=[100, 100, 100]
+  - Expected: Average=100.00
+  - Status: ✅ Passed
+
+- *Test Case 3*: Low grades
+  - Input: Name="Alice", Age=19, Grades=[45, 50, 55]
+  - Expected: Average=50.00
+  - Status: ✅ Passed
+
+#### Edge Cases and Error Handling
+- *Age Input*: Program expects integer values
+  - Invalid input (letters) will cause ValueError
+  - Negative ages are accepted but unrealistic
+  
+- *Grade Input*: Program expects float values
+  - Invalid input (letters) will cause ValueError
+  - Negative grades are accepted but unrealistic
+
+### Test Cases for Palindrome Checker
+
+#### Positive Test Cases (True Palindromes)
+- "madam" → ✅ "Yes, it is a palindrome"
+- "racecar" → ✅ "Yes, it is a palindrome"
+- "level" → ✅ "Yes, it is a palindrome"
+- "a" → ✅ "Yes, it is a palindrome"
+
+#### Negative Test Cases (Not Palindromes)
+- "hello" → ✅ "No, it is not a palindrome"
+- "python" → ✅ "No, it is not a palindrome"
+- "test" → ✅ "No, it is not a palindrome"
+
+#### Edge Cases
+- *Empty String*: "" → ✅ "Yes, it is a palindrome"
+- *Case Sensitivity*: "Madam" → ✅ "No, it is not a palindrome"
+- *Numbers*: "12321" → ✅ "Yes, it is a palindrome"
+- *Special Characters*: "A man, a plan, a canal: Panama" → ✅ "No, it is not a palindrome"
+
+### Known Limitations
+1. *No input validation* for student ages and grades
+2. *Case-sensitive* palindrome checking
+3. *Fixed number* of students (3) and courses (3)
+4. *No data persistence* - information lost after program ends
+5. *No error recovery* - invalid input crashes the program
+
+### Potential Improvements
+- Add input validation and error handling
+- Implement case-insensitive palindrome checking
+- Add data persistence (file storage)
+- Make student and course numbers configurable
+- Add grade validation (0-100 range)
+
 ---
+
