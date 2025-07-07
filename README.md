@@ -65,3 +65,56 @@ This repository contains two Python programs developed as a collaborative group 
 No compilation needed! Simply download the Python files and run them directly from your terminal or command prompt.
 
 ---
+
+### Running the Student Management System
+
+1. *Execute the program:*
+   bash
+   python main.py
+   
+
+2. *Follow the interactive prompts:*
+   - The system will ask for information for 3 students
+   - Enter each student's name, age, and 3 course grades
+   - The program automatically calculates and displays results
+
+3. *Sample Session:*
+   
+   Enter information for student 1:
+   Enter student name: Aimee
+   Enter student age: 21
+   Enter grade for course 1: 78
+   Enter grade for course 2: 82
+   Enter grade for course 3: 90
+   
+   --- Student Information ---
+   Name: Aimee
+   Age: 21
+   Grades: [78.0, 82.0, 90.0]
+   Average Grade: 83.33
+   
+
+### Running the Palindrome Checker
+
+1. *The palindrome checker runs automatically after the student system*
+
+2. *Enter a string when prompted:*
+   
+   Enter a string: madam
+   Yes, it is a palindrome
+   
+
+3. *Example Test Cases:*
+   - "madam" → Yes, it is a palindrome
+   - "hello" → No, it is not a palindrome
+   - "racecar" → Yes, it is a palindrome
+   - "Python" → No, it is not a palindrome
+
+### Input Guidelines
+- *Student names*: Any text string
+- *Student ages*: Positive integers only
+- *Grades*: Decimal numbers (0-100 recommended)
+- *Palindrome strings*: Any text (case-sensitive)
+
+---
+
