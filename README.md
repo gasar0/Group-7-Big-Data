@@ -52,7 +52,7 @@ This repository contains two Python programs developed as a collaborative group 
    
 
 3. *Run the program:*
-   jupyter notebook "StudentManagement&Palindrome.ipynb"
+    jupyter notebook "StudentManagement&Palindrome.ipynb"
    
 
 ### System Requirements
