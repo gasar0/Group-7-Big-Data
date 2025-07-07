@@ -69,8 +69,7 @@ No compilation needed! Simply download the Python files and run them directly fr
 ### Running the Student Management System
 
 1. *Execute the program:*
-   bash
-   python main.py
+  jupyter notebook "StudentManagement&Palindrome.ipynb"
    
 
 2. *Follow the interactive prompts:*
@@ -80,18 +79,19 @@ No compilation needed! Simply download the Python files and run them directly fr
 
 3. *Sample Session:*
    
-   Enter information for student 1:
-   Enter student name: Aimee
-   Enter student age: 21
-   Enter grade for course 1: 78
-   Enter grade for course 2: 82
-   Enter grade for course 3: 90
+Enter information for student 1:
+Enter student name:  nick
+Enter student age:  22
+Enter grade for course 1:  16
+Enter grade for course 2:  17
+Enter grade for course 3:  18
    
-   --- Student Information ---
-   Name: Aimee
-   Age: 21
-   Grades: [78.0, 82.0, 90.0]
-   Average Grade: 83.33
+ 
+--- Student Information ---
+Name: jnick
+Age: 22
+Grades: [16.0, 17.0, 18.0]
+Average Grade: 17.00
    
 
 ### Running the Palindrome Checker
@@ -162,21 +162,24 @@ No compilation needed! Simply download the Python files and run them directly fr
 
 ### Test Cases for Student Management System
 
-#### Valid Input Tests
-- *Test Case 1*: Standard student data
-  - Input: Name="Aimee", Age=21, Grades=[78, 82, 90]
-  - Expected: Average=83.33, proper display formatting
-  - Status: ✅ Passed
+Valid Input Tests
 
-- *Test Case 2*: Perfect grades
-  - Input: Name="John", Age=20, Grades=[100, 100, 100]
-  - Expected: Average=100.00
-  - Status: ✅ Passed
+Test Case 1: Standard student data
 
-- *Test Case 3*: Low grades
-  - Input: Name="Alice", Age=19, Grades=[45, 50, 55]
-  - Expected: Average=50.00
-  - Status: ✅ Passed
+Input: Name="Aimee", Age=21, Grades=[15.6, 16.4, 18.0] (out of 20)
+Expected: Average=16.67/20, proper display formatting
+
+
+Test Case 2: Perfect grades
+
+Input: Name="John", Age=20, Grades=[20, 20, 20] (out of 20)
+Expected: Average=20.00/20
+
+
+Test Case 3: Low grades
+
+Input: Name="Alice", Age=19, Grades=[9, 10, 11] (out of 20)
+Expected: Average=10.00/20
 
 #### Edge Cases and Error Handling
 - *Age Input*: Program expects integer values
