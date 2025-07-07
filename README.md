@@ -221,4 +221,12 @@ No compilation needed! Simply download the Python files and run them directly fr
 - Add grade validation (0-100 range)
 
 ---
+### **Team Member 5**: **Ndjibu Kadiobo Juge** (ID: 25273) – Project Management & Team Coordination  
+
+#### **Individual Contributions**
+- Coordinated weekly team meetings and tracked progress
+- Managed task assignments and ensured on-time completion
+- Facilitated communication between team members and resolved scheduling conflicts
+- Oversaw GitHub collaboration, including pull request reviews and merge conflict resolution
+- Conducted final review of project deliverables, including README consistency and completeness
 
