@@ -118,3 +118,45 @@ No compilation needed! Simply download the Python files and run them directly fr
 
 ---
 
+### Student Management System Architecture
+
+#### input_student_info()
+- *Purpose*: Collects student information from user input
+- *Returns*: Dictionary containing student data
+- *Data Structure*: {"name": str, "age": int, "grades": list}
+- *Process*: Prompts for name, age, and 3 course grades sequentially
+
+#### calculate_average(grades)
+- *Purpose*: Computes the arithmetic mean of student grades
+- *Parameters*: grades (list of float values)
+- *Returns*: Float representing the average grade
+- *Algorithm*: sum(grades) / len(grades)
+
+#### display_student_info(student)
+- *Purpose*: Formats and displays student information
+- *Parameters*: student (dictionary with student data)
+- *Output*: Formatted console display with name, age, grades, and average
+- *Formatting*: Average rounded to 2 decimal places
+
+#### student_management_system()
+- *Purpose*: Main program orchestrator
+- *Process*: 
+  1. Initializes empty students list
+  2. Loops 3 times to collect student data
+  3. Calculates averages for each student
+  4. Displays all student information
+
+### Palindrome Checker Architecture
+
+#### check_palindrome()
+- *Purpose*: Determines if a string reads the same forwards and backwards
+- *Algorithm*: String comparison using slice notation text[::-1]
+- *Input*: User-provided string via console
+- *Output*: Boolean result displayed as user-friendly message
+- *Comparison*: Case-sensitive exact match
+
+### Data Flow
+1. *Input Collection* → *Processing* → *Storage* → *Display*
+2. *User Input* → *Validation* → *Calculation* → *Output Formatting*
+
+---
