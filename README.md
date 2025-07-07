@@ -230,3 +230,4 @@ No compilation needed! Simply download the Python files and run them directly fr
 - Oversaw GitHub collaboration, including pull request reviews and merge conflict resolution
 - Conducted final review of project deliverables, including README consistency and completeness
 
+![f4ab3960-0cb5-4ba3-8b1a-e7ca61858761](https://github.com/user-attachments/assets/37e2ba65-5671-4cb5-b75f-fcbfe7eb321e)
